@@ -1,0 +1,17 @@
+[project]
+name = "corev01"
+version = "0.1.0"
+description = "Multi-asset algorithmic trading platform with ML/AI strategy framework"
+readme = "README.md"
+authors = [
+    { name = "jakehemmerle", email = "jakehemmerle@protonmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+corev01 = "corev01:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
